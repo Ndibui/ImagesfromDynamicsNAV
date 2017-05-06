@@ -63,7 +63,7 @@ END;
 <asp:Image id="ImgProfilePic" runat="server" />
 ```
 
-### CS CODE ###
+### C# CODE ###
 ```
 string ProfilePicBase64 = "";
 ProfilePicBase64 = cSite.ObjNav.GetProfilePicture(StaffNo);
