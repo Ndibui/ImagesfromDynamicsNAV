@@ -58,12 +58,12 @@ END;
 END;
 ```
 
-<!-- ASPX CODE -->
+### ASPX CODE ###
 ```
 <asp:Image id="ImgProfilePic" runat="server" />
 ```
 
-<!-- CS CODE -->
+### CS CODE ###
 ```
 string ProfilePicBase64 = "";
 ProfilePicBase64 = cSite.ObjNav.GetProfilePicture(StaffNo);
@@ -72,7 +72,7 @@ ImgProfilePic.ImageUrl = "data:image/png;base64," + ProfilePicBase64;
 
 
 
-*Improvements*
+### Improvements ###
 check if image exits in folder X, if not fetch image & save to folder X.
 
 
